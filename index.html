@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  .header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 20px;
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">header</div>
+  <div class="banner">banner</div>
+  <div class="content">content</div>  
+  <div class="ads">ads</div>  
+  <div class="footer">footer</div>
+</div>
+
+</body>
+</html>
+
+
